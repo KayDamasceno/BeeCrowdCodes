@@ -1,0 +1,1 @@
+SELECT  products.name, providers.name from products join providers ON providers.id = products.id_providers and providers.name ='Ajax SA'
